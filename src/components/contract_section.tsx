@@ -85,7 +85,7 @@ export function WinterArcCertificate() {
 
             {/* $WINTER - html2canvas compatible version */}
             <h2
-              className="absolute font-semibold text-cyan-400"
+              className="absolute font-semibold"
               style={{
                 left: "50%",
                 top: "18%",
@@ -97,6 +97,7 @@ export function WinterArcCertificate() {
                 lineHeight: "clamp(40px, 10vw, 89px)",
                 textAlign: "center",
                 fontFamily: "'Clash Display', sans-serif",
+                color: "#40E0D0",
               }}
             >
               $WINTER
