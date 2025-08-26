@@ -139,7 +139,7 @@ export function WinterArcCertificate() {
 
             {/* Name box */}
             <div
-              className="absolute bg-black/40 flex items-center justify-center font-bold"
+              className="absolute flex items-center justify-center font-bold"
               style={{
                 left: "50%",
                 top: "46%",
