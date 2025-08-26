@@ -238,6 +238,7 @@ export function WinterArcCertificate() {
             value={username}
             onChange={(e) => setUsername(e.target.value)}
             placeholder="Enter your desired name"
+            maxLength={16}
             className="flex-1 px-4 py-2 rounded bg-neutral-900 border border-neutral-700 text-neutral-200 w-full focus:outline-none focus:ring-2 focus:ring-neutral-600"
           />
           <Button
