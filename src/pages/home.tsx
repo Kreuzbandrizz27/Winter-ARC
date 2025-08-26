@@ -144,13 +144,6 @@ export default function Home() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
             <Button
-              onClick={handleNavigateToChallenges}
-              className=" bg-neutral-800 border border-neutral-800 text-neutral-400 hover:bg-neutral-900 px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-orbitron font-bold text-sm sm:text-lg transform hover:scale-105 transition-all duration-300 w-full sm:w-auto"
-            >
-              <Dumbbell className="mr-2" />
-              Sign the Contract
-            </Button>
-            <Button
               className=" bg-neutral-800 border border-neutral-800 text-neutral-400 hover:bg-neutral-900 px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-orbitron font-bold text-sm sm:text-lg transform hover:scale-105 transition-all duration-300 w-full sm:w-auto"
               onClick={() =>
                 window.open(
