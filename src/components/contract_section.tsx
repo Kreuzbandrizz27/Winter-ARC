@@ -207,7 +207,26 @@ export function WinterArcCertificate() {
                 transform: "translateX(-50%)",
                 width: "80%",
               }}
-            />
+            >
+              {/* Signature on the line */}
+              <div
+                className="absolute font-rockybilly"
+                style={{
+                  left: "50%",
+                  top: "-12px",
+                  transform: "translateX(-50%)",
+                  fontSize: "clamp(18px, 4vw, 32px)",
+                  fontFamily: "'Rockybilly', cursive",
+                  background: "linear-gradient(90deg, #FFFFFF 0%, #88FFFF 25%, #FFFFFF 50%, #88FFFF 75%, #FFFFFF 100%)",
+                  WebkitBackgroundClip: "text",
+                  WebkitTextFillColor: "transparent",
+                  backgroundClip: "text",
+                  fontWeight: "normal",
+                }}
+              >
+                {username}
+              </div>
+            </div>
 
             {/* Signature */}
             <p
