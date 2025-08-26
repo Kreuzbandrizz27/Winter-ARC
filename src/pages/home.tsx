@@ -106,7 +106,7 @@ export default function Home() {
           transition={{ duration: 0.6 }}
         >
         <h1 className="font-orbitron font-black text-[49px] leading-tight md:text-[80px] lg:text-[96px] mb-4 sm:mb-6 bg-gradient-to-b from-neutral-400 to-neutral-500/60 bg-clip-text text-transparent">
-            WINTER ARC
+            $WINTER ARC
         </h1>
           <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl mb-6 sm:mb-8 text-neutral-400 font-inter font-light px-4">
             Transform Your Body. Transform Your Mind.{" "}
