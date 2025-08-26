@@ -198,7 +198,7 @@ export function WinterArcCertificate() {
             >
               {/* Signature on the line */}
               <div
-                className="absolute font-dancing-script text-cyan-400"
+                className="absolute font-dancing-script"
                 style={{
                   left: "50%",
                   top: "-50px",
@@ -207,6 +207,10 @@ export function WinterArcCertificate() {
                   fontFamily: "'Times New Roman', Times, serif",
                   fontWeight: "400",
                   fontStyle: "normal",
+                  background: "linear-gradient(90deg, #FFFFFF, #88FFFF, #FFFFFF, #88FFFF)",
+                  WebkitBackgroundClip: "text",
+                  WebkitTextFillColor: "transparent",
+                  backgroundClip: "text",
                 }}
               >
                 {username}
