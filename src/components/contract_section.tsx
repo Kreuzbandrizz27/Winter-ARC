@@ -105,7 +105,7 @@ export function WinterArcCertificate() {
 
             {/* ARC - html2canvas compatible version */}
             <h3
-              className="absolute font-medium text-cyan-400"
+              className="absolute font-medium"
               style={{
                 left: "50%",
                 top: "29%",
@@ -114,6 +114,7 @@ export function WinterArcCertificate() {
                 textAlign: "center",
                 letterSpacing: "clamp(0.1em, 2vw, 0.37em)",
                 fontFamily: "'Clash Display', sans-serif",
+                color: "#40E0D0",
               }}
             >
               ARC
