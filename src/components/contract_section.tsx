@@ -213,7 +213,7 @@ export function WinterArcCertificate() {
                 className="absolute font-dancing-script"
                 style={{
                   left: "50%",
-                  top: "-40px",
+                  top: "10px",
                   transform: "translateX(-50%)",
                   fontSize: "clamp(18px, 4vw, 32px)",
                   fontFamily: "'Dancing Script', cursive",
@@ -228,22 +228,6 @@ export function WinterArcCertificate() {
               </div>
             </div>
 
-            {/* Signature */}
-            <p
-              className="absolute font-dancing-script uppercase text-neutral-400"
-              style={{
-                left: "50%",
-                top: "80%",
-                transform: "translateX(-50%)",
-                textShadow: "0px 0px 5.8px #000000",
-                width: "80%",
-                fontSize: "clamp(10px, 2vw, 14px)",
-              }}
-            >
-              {username}
-              <br />
-              Signature
-            </p>
           </div>
         </div>
         {/* Input + Buttons */}
