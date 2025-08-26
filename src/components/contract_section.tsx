@@ -139,7 +139,7 @@ export function WinterArcCertificate() {
 
             {/* Name box */}
             <div
-              className="absolute bg-black/40 flex items-center justify-center font-bold text-cyan-400"
+              className="absolute bg-black/40 flex items-center justify-center font-bold"
               style={{
                 left: "50%",
                 top: "46%",
@@ -152,6 +152,7 @@ export function WinterArcCertificate() {
                 fontSize: "clamp(16px, 3.5vw, 30px)",
                 borderRadius: "4px",
                 fontFamily: "'Clash Display', sans-serif",
+                color: "#40E0D0",
               }}
             >
               {username}
