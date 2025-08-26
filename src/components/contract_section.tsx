@@ -240,7 +240,7 @@ export function WinterArcCertificate() {
                 fontSize: "clamp(10px, 2vw, 16px)",
               }}
             >
-              GENERATED ON: {formattedDate}
+              GENERATED ON {formattedDate}
             </p>
 
           </div>
