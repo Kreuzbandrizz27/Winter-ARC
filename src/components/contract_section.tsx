@@ -207,10 +207,7 @@ export function WinterArcCertificate() {
                   fontFamily: "'Times New Roman', Times, serif",
                   fontWeight: "400",
                   fontStyle: "normal",
-                  background: "linear-gradient(90deg, #FFFFFF, #88FFFF, #FFFFFF, #88FFFF)",
-                  WebkitBackgroundClip: "text",
-                  WebkitTextFillColor: "transparent",
-                  backgroundClip: "text",
+                  color: "#40E0D0",
                 }}
               >
                 {username}
