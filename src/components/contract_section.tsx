@@ -16,13 +16,34 @@ export function WinterArcCertificate() {
 
   const handleDownload = async () => {
     if (!certificateRef.current) return;
-    const canvas = await html2canvas(certificateRef.current, {
+    const originalCanvas = await html2canvas(certificateRef.current, {
       scale: 2,
       useCORS: true,
       backgroundColor: null,
     });
+    
+    // Create a new canvas with the desired dimensions
+    const croppedCanvas = document.createElement('canvas');
+    const ctx = croppedCanvas.getContext('2d');
+    if (!ctx) return;
+    
+    // Set the target dimensions
+    croppedCanvas.width = 1193;
+    croppedCanvas.height = 1700;
+    
+    // Calculate the center crop from the original canvas
+    const sourceX = (originalCanvas.width - 1193) / 2;
+    const sourceY = (originalCanvas.height - 1700) / 2;
+    
+    // Draw the cropped portion onto the new canvas
+    ctx.drawImage(
+      originalCanvas,
+      sourceX, sourceY, 1193, 1700, // source rectangle
+      0, 0, 1193, 1700 // destination rectangle
+    );
+    
     const link = document.createElement("a");
-    link.href = canvas.toDataURL("image/png");
+    link.href = croppedCanvas.toDataURL("image/png");
     link.download = "winter-arc-certificate.png";
     link.click();
     setShowShare(true);
