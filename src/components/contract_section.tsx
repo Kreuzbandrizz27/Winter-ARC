@@ -201,7 +201,7 @@ export function WinterArcCertificate() {
                 className="absolute font-dancing-script text-cyan-400"
                 style={{
                   left: "50%",
-                  top: "-40px",
+                  top: "-50px",
                   transform: "translateX(-50%)",
                   fontSize: "clamp(18px, 4vw, 32px)",
                   fontFamily: "'Times New Roman', Times, serif",
