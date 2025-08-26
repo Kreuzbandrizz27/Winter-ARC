@@ -111,7 +111,7 @@ export function WinterArcCertificate() {
               className="absolute font-medium"
               style={{
                 left: "50%",
-                top: "32%",
+                top: "29%",
                 transform: "translateX(-50%)",
                 fontSize: "clamp(20px, 5vw, 32px)",
                 textAlign: "center",
