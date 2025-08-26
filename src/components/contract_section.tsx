@@ -11,8 +11,8 @@ export function WinterArcCertificate() {
   const [username, setUsername] = useState("YourName");
   const [showShare, setShowShare] = useState(false);
 
-  // const today = new Date();
-  // const formattedDate = `${today.getDate()}/${today.getMonth() + 1}/${today.getFullYear()}`;
+  const today = new Date();
+  const formattedDate = `${today.getDate()}/${today.getMonth() + 1}/${today.getFullYear()}`;
 
   const handleDownload = async () => {
     if (!certificateRef.current) return;
@@ -228,6 +228,20 @@ export function WinterArcCertificate() {
               </div>
 
             </div>
+
+            {/* Generated date */}
+            <p
+              className="absolute font-montserrat font-medium text-neutral-400"
+              style={{
+                left: "50%",
+                top: "85%",
+                transform: "translateX(-50%)",
+                textShadow: "0px 0px 5.8px #000000",
+                fontSize: "clamp(10px, 2vw, 16px)",
+              }}
+            >
+              GENERATED ON: {formattedDate}
+            </p>
 
           </div>
         </div>
