@@ -85,7 +85,7 @@ export function WinterArcCertificate() {
 
             {/* $WINTER - html2canvas compatible version */}
             <h2
-              className="absolute font-semibold"
+              className="absolute font-semibold text-cyan-400"
               style={{
                 left: "50%",
                 top: "18%",
@@ -97,10 +97,6 @@ export function WinterArcCertificate() {
                 lineHeight: "clamp(40px, 10vw, 89px)",
                 textAlign: "center",
                 fontFamily: "'Clash Display', sans-serif",
-                background: "linear-gradient(90deg, #FFFFFF 0%, #88FFFF 25%, #FFFFFF 50%, #88FFFF 75%, #FFFFFF 100%)",
-                WebkitBackgroundClip: "text",
-                WebkitTextFillColor: "transparent",
-                backgroundClip: "text",
               }}
             >
               $WINTER
@@ -108,7 +104,7 @@ export function WinterArcCertificate() {
 
             {/* ARC - html2canvas compatible version */}
             <h3
-              className="absolute font-medium"
+              className="absolute font-medium text-cyan-400"
               style={{
                 left: "50%",
                 top: "29%",
@@ -117,10 +113,6 @@ export function WinterArcCertificate() {
                 textAlign: "center",
                 letterSpacing: "clamp(0.1em, 2vw, 0.37em)",
                 fontFamily: "'Clash Display', sans-serif",
-                background: "linear-gradient(90deg, #FFFFFF 0%, #88FFFF 25%, #FFFFFF 50%, #88FFFF 75%, #FFFFFF 100%)",
-                WebkitBackgroundClip: "text",
-                WebkitTextFillColor: "transparent",
-                backgroundClip: "text",
               }}
             >
               ARC
@@ -145,7 +137,7 @@ export function WinterArcCertificate() {
 
             {/* Name box */}
             <div
-              className="absolute bg-black/40 flex items-center justify-center font-bold"
+              className="absolute bg-black/40 flex items-center justify-center font-bold text-cyan-400"
               style={{
                 left: "50%",
                 top: "46%",
@@ -158,10 +150,6 @@ export function WinterArcCertificate() {
                 fontSize: "clamp(16px, 3.5vw, 30px)",
                 borderRadius: "4px",
                 fontFamily: "'Clash Display', sans-serif",
-                background: "linear-gradient(90deg, #FFFFFF 0%, #88FFFF 25%, #FFFFFF 50%, #88FFFF 75%, #FFFFFF 100%)",
-                WebkitBackgroundClip: "text",
-                WebkitTextFillColor: "transparent",
-                backgroundClip: "text",
               }}
             >
               {username}
@@ -210,17 +198,13 @@ export function WinterArcCertificate() {
             >
               {/* Signature on the line */}
               <div
-                className="absolute font-dancing-script"
+                className="absolute font-dancing-script text-cyan-400"
                 style={{
                   left: "50%",
                   top: "-40px",
                   transform: "translateX(-50%)",
                   fontSize: "clamp(18px, 4vw, 32px)",
                   fontFamily: "'Times New Roman', Times, serif",
-                  background: "linear-gradient(90deg, #FFFFFF 0%, #88FFFF 25%, #FFFFFF 50%, #88FFFF 75%, #FFFFFF 100%)",
-                  WebkitBackgroundClip: "text",
-                  WebkitTextFillColor: "transparent",
-                  backgroundClip: "text",
                   fontWeight: "400",
                   fontStyle: "normal",
                 }}
