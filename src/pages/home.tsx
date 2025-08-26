@@ -1,6 +1,6 @@
 import { useMemo, useCallback, useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import { Dumbbell, Flame, Snowflake, ChevronLeft, ChevronRight, Copy, Check } from "lucide-react";
+import { Flame, Snowflake, ChevronLeft, ChevronRight, Copy, Check } from "lucide-react";
 import { SnowAnimation } from "../components/snow_animation";
 import { Navigation } from "../components/navigation";
 import { IntroVideoSection } from "../components/video_player";
